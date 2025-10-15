@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Simple Add to Cart Example</title>
+</head>
+<body>
+
+  <h2>🛒 Add to Cart System</h2>
+
+  <div class="product">
+    <h3>Sandwitch</h3>
+    <p>Price: $6</p>
+    <button onclick="addToCart('Sandwitch', 6)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <h3>Ice cream</h3>
+    <p>Price: $4</p>
+    <button onclick="addToCart('Ice cream', 4)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <h3>Burger</h3>
+    <p>Price: $10</p>
+    <button onclick="addToCart('Burger', 10)">Add to Cart</button>
+  </div>
+
+  <div id="cart">
+    <h3>🧺 Your Cart</h3>
+    <ul id="cartList"></ul>
+    <p><b>Total: $<span id="total">0</span></b></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

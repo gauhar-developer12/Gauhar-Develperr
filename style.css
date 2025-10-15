@@ -1,0 +1,34 @@
+body{
+    padding: 30px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.product{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    padding: 13px;
+    margin: 12px;
+    display: inline-block;
+}
+
+.product button{
+    width: 100px;
+    height: 40px;
+    background-color: greenyellow;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#cart{
+    margin-top: 1px;
+    padding-top: 10px;
+    border-top: 3px solid black;
+}
+
+li{
+    list-style: none;
+    padding: 7px;
+}
